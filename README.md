@@ -32,7 +32,7 @@ CREATE TABLE shoes(
 
 ## Data
 ### List data in a table
-```
+```sql
 select * from shoes;
 ```
 
