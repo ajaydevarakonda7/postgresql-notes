@@ -18,8 +18,8 @@
 CREATE TABLE shoes(
    id serial PRIMARY KEY,
    name VARCHAR (50) NOT NULL,
-   image_src VARCHAR (50) NOT NULL,
-   created_at TIMESTAMP
+   image_src TEXT NOT NULL,
+   created_at TIMESTAMP default current_timestamp
 );
 ```
 
