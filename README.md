@@ -47,3 +47,7 @@ select * from shoes;
 # SQL concepts
 ## Primary keys
 Unique identity for a record in table.
+
+## Relationships
+Prevents amending the same object again and again, <-- this approach is frowned upon in relational databases. 
+You could create a different object in a different table and point to this one.
