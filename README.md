@@ -42,5 +42,7 @@ select * from shoes;
 2.  `CHAR(n)` or `VARCHAR(n)` or `TEXT`
 3. ... continued
 
+
+
 # SQL concepts
 ## Primary keys
