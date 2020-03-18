@@ -11,6 +11,7 @@
 | command | usage |
 |---------|-------|
 | `\dt` | list tables. |
+| `\d shoes` | Displays structure of table. |
 
 ### Create table
 ```sql
@@ -45,3 +46,4 @@ select * from shoes;
 <br/><br/>
 # SQL concepts
 ## Primary keys
+Unique identity for a record in table.
