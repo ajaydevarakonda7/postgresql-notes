@@ -8,6 +8,10 @@
 | `alter database shoe_commerce rename to sock_commerce;` | alter database name. |
 | `drop database shoe_commerce;` | remove a database. |
 
+### Copying a database
+```sql
+CREATE DATABASE new_commerce WITH TEMPLATE shoe_commerce OWNER postgres;
+```
 
 ## Table
 | command | usage |
@@ -36,6 +40,9 @@ CREATE TABLE shoes(
 ```sql
 select * from shoes;
 ```
+
+## Relations
+
 
 ## Datatypes
 [tutorial](https://www.postgresqltutorial.com/postgresql-data-types/)
