@@ -46,6 +46,12 @@ CREATE TABLE shoes(
 select * from shoes;
 ```
 
+### Add a column to existing table
+```sql
+ALTER TABLE users
+ADD COLUMN country VARCHAR(50) NOT NULL;
+```
+
 <br/><br/><br/>
 
 ## Relations and Joins
