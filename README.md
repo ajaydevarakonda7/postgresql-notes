@@ -54,7 +54,7 @@ There are different kinds of joins.
 |-----------|-------|
 | Inner join | one person to one passport information join |
 | Left join | one person to (0-)many cars join. |
-| Right join | |
+| Right join | many people to the same conuntry join. |
 4. Full outer join
 5. Cross join
 6. Natural join
