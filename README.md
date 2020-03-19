@@ -41,7 +41,20 @@ CREATE TABLE shoes(
 select * from shoes;
 ```
 
-## Relations
+## Relations and Joins
+There are different kinds of joins. 
+
+| Join type | Usage |
+|-----------|-------|
+| Inner join | one person to one passport information join |
+| Left join | one person to (0-)many cars join. |
+| Right join | |
+4. Full outer join
+5. Cross join
+6. Natural join
+7. self-join -- special
+
+If for every row in `a` table, there is an entry in `b` table, then 
 
 
 ## Datatypes
