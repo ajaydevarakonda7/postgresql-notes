@@ -13,6 +13,8 @@
 CREATE DATABASE new_commerce WITH TEMPLATE shoe_commerce OWNER postgres;
 ```
 
+<br/><br/><br/>
+
 ## Table
 | command | usage |
 |---------|-------|
