@@ -43,6 +43,8 @@ CREATE TABLE shoes(
 select * from shoes;
 ```
 
+<br/><br/><br/>
+
 ## Relations and Joins
 There are different kinds of joins. 
 
@@ -70,6 +72,8 @@ FROM
 --                    ON primary key field = foreign key field
 LEFT JOIN auth_tokens ON users.id = auth_tokens.user_id;
 ```
+
+<br/><br/><br/>
 
 ## Datatypes
 [tutorial](https://www.postgresqltutorial.com/postgresql-data-types/)
