@@ -86,6 +86,17 @@ LEFT JOIN auth_tokens ON users.id = auth_tokens.user_id;
 
 <br/><br/><br/>
 
+## Data
+### Update existing data
+```sql
+UPDATE table
+SET country = ',
+    column2 = value2 ,...
+WHERE
+   condition;
+```
+
+
 ## Datatypes
 [tutorial](https://www.postgresqltutorial.com/postgresql-data-types/)
 
