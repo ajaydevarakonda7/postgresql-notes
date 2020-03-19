@@ -59,6 +59,8 @@ There are different kinds of joins.
 7. self-join -- special
 
 ### How to use a join
+
+#### Left join
 ```sql
 SELECT
 -- All the columns from users and auth_tokens table that we'd like to display.
