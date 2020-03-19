@@ -22,6 +22,7 @@ CREATE DATABASE new_commerce WITH TEMPLATE shoe_commerce OWNER postgres;
 |---------|-------|
 | `\dt` | list tables. |
 | `\d shoes` | Displays structure of table. |
+| `alter table country rename to countries;` | Rename a table. |
 
 ### Create table
 ```sql
