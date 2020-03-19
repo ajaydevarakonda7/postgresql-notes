@@ -54,8 +54,20 @@ There are different kinds of joins.
 6. Natural join
 7. self-join -- special
 
-If for every row in `a` table, there is an entry in `b` table, then 
-
+### How to use a join
+```sql
+SELECT
+-- All the columns from users and auth_tokens table that we'd like to display.
+   users.id,
+   users.username,
+   auth_tokens.token
+-- ,
+FROM
+-- ,
+   users
+--                    ON primary key field = foreign key field
+LEFT JOIN auth_tokens ON users.id = auth_tokens.user_id;
+```
 
 ## Datatypes
 [tutorial](https://www.postgresqltutorial.com/postgresql-data-types/)
